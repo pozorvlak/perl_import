@@ -1,9 +1,8 @@
 # Add to @INC list
-use lib './stuff';
+use lib "./stuff";
 
-# Import from anywhere in the @INC list
-use hello;
+use hello qw(greet);
 
 # Results in "undefined subroutine &hello::greet"
-my $phrase = hello::greet("Jay");
+my $phrase = stuff::hello::greet("Jay");
 printf("$phrase\n");
