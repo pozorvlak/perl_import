@@ -1,8 +1,8 @@
 # Add to @INC list
 use FindBin qw($RealBin);
-use lib "$RealBin/stuff";
+use lib $RealBin;
 
-use hello qw(greet);
+use stuff::hello qw(greet);
 
 if ($#ARGV < 1) {
     die "No argument set"
