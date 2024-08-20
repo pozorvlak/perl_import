@@ -1,5 +1,6 @@
 # Add to @INC list
-use lib "./stuff";
+use FindBin qw($RealBin);
+use lib "$RealBin/stuff";
 
 use hello qw(greet);
 
