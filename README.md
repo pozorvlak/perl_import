@@ -28,4 +28,7 @@ is just an ordinary static method call. That means you can do *anything* in
 that method, and have it happen at compile time. See
 [SVG::GD](https://metacpan.org/pod/SVG::GD) or
 [Lingua::Romana::Perligata](https://metacpan.org/pod/Lingua::Romana::Perligata)
-for the kind of thing this makes possible.
+for the kind of thing this makes possible. The standard `Exporter` module
+provides (in ordinary Perl code) an `import` method that implements the usual
+export semantics; people have written several alternative exporters and put
+them on CPAN.
