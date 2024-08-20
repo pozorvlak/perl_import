@@ -1,4 +1,4 @@
-In https://dev.to/taikedz/polydev-a-better-hello-world-for-polyglot-devs-37p2, 
+In [Beyond "Hello World" - comparing starter code in C, Rust, Python, TypeScript and more](https://dev.to/taikedz/polydev-a-better-hello-world-for-polyglot-devs-37p2),
 Tai Kedzierski pleaded:
 
 > This is just a sample of the hair-pulling infuriation trying to hunt down how
